@@ -1,60 +1,83 @@
 @media (max-width: 1024px) {
   .tp-leftarrow, .tp-rightarrow {
     width: 40px !important;
-    height: 40px !important; }
+    height: 40px !important;
+  }
 
   .tp-leftarrow {
-    left: -15px !important; }
+    left: -15px !important;
+  }
 
   .tp-rightarrow {
-    left: 101% !important; }
+    left: 101% !important;
+  }
 
   .tparrows:before {
-    line-height: 25px !important; } }
+    line-height: 25px !important;
+  }
+}
 @media (max-width: 767px) {
   .parallax {
-    background-attachment: inherit; }
+    background-attachment: inherit;
+  }
 
   .pad100 {
-    padding: 50px 0; }
+    padding: 50px 0;
+  }
 
   .pad-t100 {
-    padding-top: 50px; }
+    padding-top: 50px;
+  }
 
   .pad-b70 {
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+  }
 
   .form-section .full-height {
-    padding: 50px 50px; }
+    padding: 50px 50px;
+  }
 
   #map {
-    display: none; }
+    display: none;
+  }
 
   .animated-counter-section {
-    margin-top: 40px; }
+    margin-top: 40px;
+  }
 
   ul.filter {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+  }
 
   .banner {
-    padding: 120px 0 100px 0; }
-    .banner h1 {
-      font-size: 40px;
-      line-height: 50px; }
+    padding: 120px 0 100px 0;
+  }
+  .banner h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
 
   .testimonial-slide .carousel-inner .item {
-    padding-bottom: 80px; }
+    padding-bottom: 80px;
+  }
 
   .testimonial-slide .carousel-indicators {
-    bottom: -20px; }
+    bottom: -20px;
+  }
 
   .resume-btn {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+  }
 
   .preview-banner {
-    padding: 100px 0; } }
+    padding: 100px 0;
+  }
+}
 @media (max-width: 480px) {
   ul.filter li {
-    margin-bottom: 30px; }
-    ul.filter li a {
-      padding: 6px 15px; } }
+    margin-bottom: 30px;
+  }
+  ul.filter li a {
+    padding: 6px 15px;
+  }
+}

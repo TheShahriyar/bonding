@@ -58,13 +58,17 @@ Author URI: http://theshahriyar.com
 	}
 
 	&.white {
-		h1,p {
+
+		h1,
+		p {
 			color: #fff;
 		}
 	}
 
 	&.primary {
-		h1,p {
+
+		h1,
+		p {
 			color: $brand-primary;
 		}
 	}
@@ -74,9 +78,10 @@ Author URI: http://theshahriyar.com
 .video-bg {
 	position: relative;
 
-	h3{
-		color:#fff;
+	h3 {
+		color: #fff;
 	}
+
 	#customElement {
 		width: 100%;
 		height: 100%;
@@ -92,7 +97,7 @@ Author URI: http://theshahriyar.com
 	padding: 200px 0;
 
 	h1 {
-		font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive !important;
+		font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive !important;
 		font-size: 70px;
 		line-height: 70px;
 		font-weight: 700;
@@ -106,13 +111,17 @@ Author URI: http://theshahriyar.com
 	}
 
 	&.white {
-		h1,p {
+
+		h1,
+		p {
 			color: #fff;
 		}
 	}
 
 	&.primary {
-		h1,p {
+
+		h1,
+		p {
 			color: $brand-primary;
 		}
 	}
@@ -125,11 +134,12 @@ Author URI: http://theshahriyar.com
 //---------------------------------------
 
 .rev_slider_wrapper {
-	
+
 	.tp-leftarrow.hermes {
 		position: absolute;
 		left: 0 !important;
 	}
+
 	.tp-rightarrow.hermes {
 		position: absolute;
 		right: 0 !important;
@@ -154,20 +164,20 @@ Author URI: http://theshahriyar.com
 
 	.feature-icon {
 
-	    i {
-    	    font-size: 45px;
-		    width: 45px;
-		    height: 45px;
-		    line-height: 45px;
-		    color: $brand-primary;
-		    -webkit-transition: all 0.3s;
-		    -o-transition: all 0.3s;
-		    transition: all 0.3s;
+		i {
+			font-size: 45px;
+			width: 45px;
+			height: 45px;
+			line-height: 45px;
+			color: $brand-primary;
+			-webkit-transition: all 0.3s;
+			-o-transition: all 0.3s;
+			transition: all 0.3s;
 
-		    &:before {
-		    	font-size: 45px;
-		    }
-	    }
+			&:before {
+				font-size: 45px;
+			}
+		}
 	}
 
 	.media-body {
@@ -176,18 +186,19 @@ Author URI: http://theshahriyar.com
 		h3 {
 			font-size: 18px;
 			line-height: 24px;
-		    margin-bottom: 15px;
-		    text-transform: uppercase;
-		    color: #000;
-		    -webkit-transition: all 0.3s;
-		    -o-transition: all 0.3s;
-		    transition: all 0.3s;
+			margin-bottom: 15px;
+			text-transform: uppercase;
+			color: #000;
+			-webkit-transition: all 0.3s;
+			-o-transition: all 0.3s;
+			transition: all 0.3s;
 		}
 	}
 
 	&.white {
 		.media-body {
 			color: #fff;
+
 			h3 {
 				color: #fff;
 			}
@@ -202,7 +213,7 @@ Author URI: http://theshahriyar.com
 		}
 	}
 
-	
+
 }
 
 
@@ -214,188 +225,205 @@ Author URI: http://theshahriyar.com
 
 
 .cd-timeline {
-  position: relative;
-  padding: 30px 0;
+	position: relative;
+	padding: 30px 0;
 }
+
 .cd-timeline::before {
-  /* this is the vertical line */
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 18px;
-  height: 100%;
-  width: 4px;
-  background: #111;
+	/* this is the vertical line */
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 18px;
+	height: 100%;
+	width: 4px;
+	background: #111;
 }
+
 .cd-timeline.red-color::before {
 	background: $brand-primary;
 }
+
 @media only screen and (min-width: 1170px) {
-  
-  .cd-timeline::before {
-    left: 50%;
-    margin-left: -2px;
-  }
+
+	.cd-timeline::before {
+		left: 50%;
+		margin-left: -2px;
+	}
 }
 
 .cd-timeline-block {
-  position: relative;
-  margin: 30px 0;
+	position: relative;
+	margin: 30px 0;
 }
+
 .cd-timeline-block:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
+
 .cd-timeline-block:first-child {
-  margin-top: 0;
+	margin-top: 0;
 }
+
 .cd-timeline-block:last-child {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
+
 @media only screen and (min-width: 1170px) {
-  .cd-timeline-block {
-    margin: 30px 0;
-  }
-  .cd-timeline-block:first-child {
-    margin-top: 0;
-  }
-  .cd-timeline-block:last-child {
-    margin-bottom: 0;
-  }
+	.cd-timeline-block {
+		margin: 30px 0;
+	}
+
+	.cd-timeline-block:first-child {
+		margin-top: 0;
+	}
+
+	.cd-timeline-block:last-child {
+		margin-bottom: 0;
+	}
 }
 
 .cd-timeline-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-     background: #111;
-  //box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	background: #111;
+	//box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .cd-timeline.red-color .cd-timeline-img {
 	background: $brand-primary;
 }
+
 .cd-timeline-img i {
-    color: #fff;
-  display: block;
-  width: 40px;
-  height: 40px;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  margin-left: -8px;
-  margin-top: -11px;
+	color: #fff;
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	margin-left: -8px;
+	margin-top: -11px;
 }
 
 @media only screen and (min-width: 1170px) {
-  .cd-timeline-img {
-    width: 60px;
-    height: 60px;
-    left: 50%;
-    margin-left: -30px;
-    /* Force Hardware Acceleration in WebKit */
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-  }
-  
+	.cd-timeline-img {
+		width: 60px;
+		height: 60px;
+		left: 50%;
+		margin-left: -30px;
+		/* Force Hardware Acceleration in WebKit */
+		-webkit-transform: translateZ(0);
+		-webkit-backface-visibility: hidden;
+	}
+
 }
 
 
 .cd-timeline-content {
-  position: relative;
-  margin-left: 60px;
-  background: #fff;
-  padding: 1em;
-  //box-shadow: 0 3px 0 #d7e4ed;
+	position: relative;
+	margin-left: 60px;
+	background: #fff;
+	padding: 1em;
+	//box-shadow: 0 3px 0 #d7e4ed;
 }
+
 .cd-timeline-content:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.cd-timeline-content h4 {
-
-}
-.cd-timeline-content p, 
-.cd-timeline-content .cd-date {
-}
-.cd-timeline-content .cd-date {
-  display: inline-block;
-}
-.cd-timeline-content p {
-  
+	content: "";
+	display: table;
+	clear: both;
 }
 
+.cd-timeline-content h4 {}
+
+.cd-timeline-content p,
+.cd-timeline-content .cd-date {}
+
 .cd-timeline-content .cd-date {
-  float: left;
-  padding: .8em 0;
-  opacity: .7;
+	display: inline-block;
 }
+
+.cd-timeline-content p {}
+
+.cd-timeline-content .cd-date {
+	float: left;
+	padding: .8em 0;
+	opacity: .7;
+}
+
 .cd-timeline-content::before {
-  content: '';
-  position: absolute;
-  top: 16px;
-  right: 100%;
-  height: 0;
-  width: 0;
-  border: 7px solid transparent;
-  border-right: 7px solid white;
+	content: '';
+	position: absolute;
+	top: 16px;
+	right: 100%;
+	height: 0;
+	width: 0;
+	border: 7px solid transparent;
+	border-right: 7px solid white;
 }
 
 
 @media only screen and (min-width: 768px) {
-  .cd-timeline-content h4 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  .cd-timeline-content p {
-  	margin-bottom: 0;
-  }
-.cd-timeline-content .cd-date {
-  color: #fff;
-  }
+	.cd-timeline-content h4 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.cd-timeline-content p {
+		margin-bottom: 0;
+	}
+
+	.cd-timeline-content .cd-date {
+		color: #fff;
+	}
 }
 
 @media only screen and (min-width: 1170px) {
-  .cd-timeline-content {
-    margin-left: 0;
-    padding: 1.6em;
-    width: 45%;
-  }
-  .cd-timeline-content::before {
-    top: 24px;
-    left: 100%;
-    border-color: transparent;
-    border-left-color: #fff;
-  }
-  
-  .cd-timeline-content .cd-date {
-    position: absolute;
-    width: 100%;
-    left: 122%;
-    top: 6px;
-    font-size: 20px;
-  }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content {
-    float: right;
-  }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
-    top: 24px;
-    left: auto;
-    right: 100%;
-    border-color: transparent;
-    border-right-color: #fff;
-  }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
-    left: auto;
-    right: 122%;
-    text-align: right;
-  }
-  
+	.cd-timeline-content {
+		margin-left: 0;
+		padding: 1.6em;
+		width: 45%;
+	}
+
+	.cd-timeline-content::before {
+		top: 24px;
+		left: 100%;
+		border-color: transparent;
+		border-left-color: #fff;
+	}
+
+	.cd-timeline-content .cd-date {
+		position: absolute;
+		width: 100%;
+		left: 122%;
+		top: 6px;
+		font-size: 20px;
+	}
+
+	.cd-timeline-block:nth-child(even) .cd-timeline-content {
+		float: right;
+	}
+
+	.cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+		top: 24px;
+		left: auto;
+		right: 100%;
+		border-color: transparent;
+		border-right-color: #fff;
+	}
+
+	.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
+		left: auto;
+		right: 122%;
+		text-align: right;
+	}
+
 }
 
 
@@ -408,111 +436,115 @@ Author URI: http://theshahriyar.com
 //======================================
 
 ul.filter {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  margin-bottom: 60px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-bottom: 60px;
 
-  li {
-	display: inline-block;
-	margin-right: 10px;
+	li {
+		display: inline-block;
+		margin-right: 10px;
 
-	a {
-		background: $black-russian-grey;
-		color: $white;
-		padding: 10px 30px;
-		font-size: 13px;
-		line-height: 1.8em;
-		text-decoration: none;
-		transition: all 0.2s ease-in-out;
-		-webkit-transition: all 0.2s ease-in-out;
+		a {
+			background: $black-russian-grey;
+			color: $white;
+			padding: 10px 30px;
+			font-size: 13px;
+			line-height: 1.8em;
+			text-decoration: none;
+			transition: all 0.2s ease-in-out;
+			-webkit-transition: all 0.2s ease-in-out;
 
-		&.active,
-		&:hover {
-			background: $brand-primary;
+			&.active,
+			&:hover {
+				background: $brand-primary;
+			}
 		}
-	}
 
-  }
+	}
 
 }
 
 
 
 .isotope-item {
-  z-index: 2;
+	z-index: 2;
 }
+
 .isotope-hidden.isotope-item {
-  pointer-events: none;
-  z-index: 1;
+	pointer-events: none;
+	z-index: 1;
 }
+
 .isotope,
 .isotope .isotope-item {
-  /* change duration value to whatever you like */
-  -webkit-transition-duration: 0.8s;
-  -moz-transition-duration: 0.8s;
-  transition-duration: 0.8s;
+	/* change duration value to whatever you like */
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	transition-duration: 0.8s;
 }
+
 .isotope {
-  -webkit-transition-property: height, width;
-  -moz-transition-property: height, width;
-  transition-property: height, width;
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	transition-property: height, width;
 }
+
 .isotope .isotope-item {
-  -webkit-transition-property: -webkit-transform, opacity;
-  -moz-transition-property: -moz-transform, opacity;
-  transition-property: transform, opacity;
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform, opacity;
+	transition-property: transform, opacity;
 }
 
 
 .portfolio-box {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 .portfolio-post {
 	overflow: hidden;
-	float:left;
+	float: left;
 	position: relative;
-    top: 0px;
-    left: 0px;
-    visibility: visible;
+	top: 0px;
+	left: 0px;
+	visibility: visible;
 
 	img {
 		max-width: 100%;
-    	float: left;
-	    padding: 0;
-	    margin: 0;
-	    -webkit-transform: scale3d(1, 1, 1);
-	    transform: scale3d(1, 1, 1);
-	    -webkit-transition: all 400ms ease-in-out;
-	    transition: all 400ms ease-in-out;
-	    background-color: white;
+		float: left;
+		padding: 0;
+		margin: 0;
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+		-webkit-transition: all 400ms ease-in-out;
+		transition: all 400ms ease-in-out;
+		background-color: white;
 	}
 
 	.hover-box {
 		position: absolute;
 		opacity: 0;
 		overflow: hidden;
-	    transition: opacity 400ms ease-in, margin 250ms ease;
-	    -webkit-transition: opacity 400ms ease-in, margin 250ms ease;
-	    position: absolute;
-	    top: 0;
-	    bottom: 0;
-	    left: 0;
-	    right: 0;
-	    text-align: center;
-	    padding: 10px;
-	    margin: 0;
-	    border: 0;
-	    background: rgba(0, 0, 0, 0.5);
-	    color: #fff;
-	    z-index: 2;
+		transition: opacity 400ms ease-in, margin 250ms ease;
+		-webkit-transition: opacity 400ms ease-in, margin 250ms ease;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		padding: 10px;
+		margin: 0;
+		border: 0;
+		background: rgba(0, 0, 0, 0.5);
+		color: #fff;
+		z-index: 2;
 
 		.inner-hover {
 			width: 100%;
 			height: 100%;
 			display: table;
-			
+
 
 			.middle {
 				vertical-align: middle;
@@ -522,46 +554,46 @@ ul.filter {
 			h4 a {
 				color: $white;
 				margin-top: 20px;
-			    display: inline-block;
-			    font-size: 16px;
-			    line-height: 1.2;
-			    letter-spacing: 1px;
-			    -webkit-transform: translate3d(0, 15px, 0);
-			    transform: translate3d(0, 15px, 0);
-			    -webkit-transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000) 150ms;
-			    transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000) 150ms;
+				display: inline-block;
+				font-size: 16px;
+				line-height: 1.2;
+				letter-spacing: 1px;
+				-webkit-transform: translate3d(0, 15px, 0);
+				transform: translate3d(0, 15px, 0);
+				-webkit-transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000) 150ms;
+				transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000) 150ms;
 			}
 
 			p {
 				padding-top: 15px;
 				color: $brand-primary;
 				-webkit-transform: translate3d(0, 15px, 0);
-			    transform: translate3d(0, 15px, 0);
-			    -webkit-transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000) 300ms;
-			    transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000) 300ms;
+				transform: translate3d(0, 15px, 0);
+				-webkit-transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000) 300ms;
+				transition: all 400ms cubic-bezier(0.645, 0.045, 0.355, 1.000) 300ms;
 			}
 
 			.portfolio-post-btn a {
 				background: $brand-primary;
-			    font-size: 12px;
-			    letter-spacing: 2px;
-			    line-height: 1;
-			    vertical-align: middle;
-			    cursor: pointer;
-			    display: block;
-			    max-width: 100px;
-			    margin: 0 auto;
-			    padding: 12px 25px;
-			    text-align: center;
-			    text-transform: uppercase;
-			    color: #ffffff;
-			    border: 0;
-			    border-radius: 0;
-			    opacity: 0;
-			    -webkit-transform: scale3d(0, 0, 0);
-			    transform: scale3d(0, 0, 0);
-			    -webkit-transition: all 400ms;
-			    transition: all 400ms;
+				font-size: 12px;
+				letter-spacing: 2px;
+				line-height: 1;
+				vertical-align: middle;
+				cursor: pointer;
+				display: block;
+				max-width: 100px;
+				margin: 0 auto;
+				padding: 12px 25px;
+				text-align: center;
+				text-transform: uppercase;
+				color: #ffffff;
+				border: 0;
+				border-radius: 0;
+				opacity: 0;
+				-webkit-transform: scale3d(0, 0, 0);
+				transform: scale3d(0, 0, 0);
+				-webkit-transition: all 400ms;
+				transition: all 400ms;
 
 				img {
 					display: none;
@@ -570,12 +602,12 @@ ul.filter {
 		}
 	}
 
-	&:hover{
+	&:hover {
 
 		img {
 			-webkit-transform: scale3d(1.15, 1.15, 1);
 			transform: scale3d(1.15, 1.15, 1);
-    		
+
 		}
 
 		.hover-box {
@@ -583,7 +615,7 @@ ul.filter {
 			//margin: 12px;
 
 			.inner-hover {
-				h4 a{
+				h4 a {
 					-webkit-transform: translate3d(0, 0, 0);
 					-moz-transform: translate3d(0, 0, 0);
 					-o-transform: translate3d(0, 0, 0);
@@ -599,8 +631,8 @@ ul.filter {
 
 				.portfolio-post-btn a {
 					opacity: 1;
-				    -webkit-transform: scale3d(1, 1, 1);
-				    transform: scale3d(1, 1, 1);
+					-webkit-transform: scale3d(1, 1, 1);
+					transform: scale3d(1, 1, 1);
 				}
 
 			}
@@ -608,70 +640,71 @@ ul.filter {
 	}
 
 }
+
 .portfolio-details {
 	background: #f5f5f5;
-    padding: 20px;
-    font-size: 13px;
-    line-height: 13px;
-    -webkit-transition: all 400ms ease;
-    transition: all 400ms ease;
+	padding: 20px;
+	font-size: 13px;
+	line-height: 13px;
+	-webkit-transition: all 400ms ease;
+	transition: all 400ms ease;
 
-    h4 {
-	    margin: 0 0 10px;
+	h4 {
+		margin: 0 0 10px;
 		padding: 0;
 		font-size: 16px;
 		line-height: 16px;
 		color: #000;
 		text-transform: uppercase;
-    }
+	}
 
-    p {
-    	color: $brand-primary;
-    	-webkit-transition: all 400ms ease;
-    	transition: all 400ms ease;
-    }
+	p {
+		color: $brand-primary;
+		-webkit-transition: all 400ms ease;
+		transition: all 400ms ease;
+	}
 
-    i {
-    	margin-right: 5px;
-    }
+	i {
+		margin-right: 5px;
+	}
 
-    &:hover {
-    	background: #333;
+	&:hover {
+		background: #333;
 
-    	h4 {
-    		color: $white;
-    	}
-    }
+		h4 {
+			color: $white;
+		}
+	}
 }
 
 
 
 button.mfp-close,
 button.mfp-arrow {
-  outline: none;
+	outline: none;
 }
 
 
 .portfolio-box.col-3 .portfolio-post {
-  width: 33.25%;
-  //margin: 1.5px;
+	width: 33.25%;
+	//margin: 1.5px;
 }
 
 .portfolio-box.col-4 .portfolio-post {
-  width: 25%;
+	width: 25%;
 }
 
 .portfolio-box.col-2 .portfolio-post {
-  width: 49.95%;
+	width: 49.95%;
 }
 
 .portfolio-box.col-3-sidebar .portfolio-post {
-  width: 279px;
-  margin: 1.5px;
+	width: 279px;
+	margin: 1.5px;
 }
 
 
-.portfolio-carousel  .owl-buttons div {
+.portfolio-carousel .owl-buttons div {
 	width: 30px;
 	height: 30px;
 	line-height: 26px;
@@ -686,7 +719,7 @@ button.mfp-arrow {
 	img {
 		margin-bottom: 20px;
 	}
-	
+
 	p {
 		text-transform: uppercase;
 		color: #333;
@@ -701,45 +734,50 @@ button.mfp-arrow {
 //-----------------------------------------
 .animated-counter {
 	padding-bottom: 50px;
-	
+
 	.animated-icon {
 		span {
 			font-size: 40px;
-		    padding-bottom: 28px;
+			padding-bottom: 28px;
 		}
 	}
-	.animated-number {
-	    font-size: 60px;
-	    font-weight: 700;
-	    line-height: 60px;
-	    position: relative;
-	    margin: 0;
-	    padding: 0;
 
-    	&:after {
-    		position: absolute;
-		    right: 0;
-		    bottom: 0;
-		    left: 0;
-		    width: 37px;
-		    height: 2px;
-		    margin: -20px auto;
-		    content: '';
-		    background: #333;
-    	}
+	.animated-number {
+		font-size: 60px;
+		font-weight: 700;
+		line-height: 60px;
+		position: relative;
+		margin: 0;
+		padding: 0;
+
+		&:after {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			width: 37px;
+			height: 2px;
+			margin: -20px auto;
+			content: '';
+			background: #333;
+		}
 	}
 
 	h4 {
-	    font-size: 16px;
-	    line-height: 22px;
-	    margin: 50px 0 0;
-	    padding: 0;
+		font-size: 16px;
+		line-height: 22px;
+		margin: 50px 0 0;
+		padding: 0;
 	}
 
 	&.white {
-		.animated-icon, .animated-number, h4 {
+
+		.animated-icon,
+		.animated-number,
+		h4 {
 			color: #fff !important;
 		}
+
 		.animated-number {
 			&:after {
 				background: #fff;
@@ -756,11 +794,11 @@ button.mfp-arrow {
 //---------------------------------------
 .skill-section {
 	margin-top: 20px;
-	
+
 	.skill {
-	    padding-bottom: 15px;
+		padding-bottom: 15px;
 	}
-	
+
 	.skill-name {
 		font-size: 14px;
 		font-weight: 500;
@@ -800,7 +838,7 @@ button.mfp-arrow {
 		box-shadow: none;
 		-webkit-transition: width 0.6s ease;
 		transition: width 0.6s ease;
-		position:relative;
+		position: relative;
 
 		&.yellow {
 			background: $yellow;
@@ -832,11 +870,11 @@ button.mfp-arrow {
 // Start Testimonial Section
 //---------------------------------------
 .testimonial-slide {
-	
+
 	.carousel-inner {
 		min-height: 250px;
 
-		.item {
+		.carousel-item {
 			text-align: center;
 			padding: 0 15%;
 			padding-bottom: 40px;
@@ -857,50 +895,48 @@ button.mfp-arrow {
 			color: #fff;
 		}
 	}
-	
+
 
 	.carousel-control {
-	    background: none;
-	    color: $text-color;
-	    font-size: 26px;
-	    text-shadow: none;
-	    margin-top: 30px;
+		background: none;
+		color: $text-color;
+		font-size: 26px;
+		text-shadow: none;
+		margin-top: 30px;
 
-	    &:hover {
-	    	color: $brand-primary;
-	    }
+		&:hover {
+			color: $brand-primary;
+		}
 	}
-	
+
 	.carousel-control.left {
-	    left: -60px;
+		left: -60px;
 	}
+
 	.carousel-control.right {
-	    right: -60px;
+		right: -60px;
 	}
-	.carousel-indicators {
-	    right: 50%;
-	    top: auto;
-	    bottom: 0px;
-	    margin-right: -19px;
-	}
+
 	.carousel-indicators li {
-	    width: 40px;
-	    height: 40px;
-	    margin: 5px;
-	    cursor: pointer;
-	    border: 4px solid #CCC;
-	    border-radius: 50px;
-	    opacity: 0.4;
-	    overflow: hidden;
-	    transition: all 0.4s;
+		width: 40px;
+		height: 40px;
+		margin: 5px;
+		cursor: pointer;
+		border: 4px solid #CCC;
+		border-radius: 50px;
+		opacity: 0.4;
+		overflow: hidden;
+		transition: all 0.4s;
+		display: flex;
 	}
+
 	.carousel-indicators .active {
-	    width: 65px;
-	    height: 65px;
-	    border-radius: 100px;
-	    border-color: $brand-primary;
-	    opacity: 1;
-	    overflow: hidden;
+		width: 65px;
+		height: 65px;
+		border-radius: 100px;
+		border-color: $brand-primary;
+		opacity: 1;
+		overflow: hidden;
 	}
 }
 
@@ -913,8 +949,8 @@ button.mfp-arrow {
 .pricing-box {
 	overflow: hidden;
 	margin-bottom: 30px;
-	box-shadow: 0 2px 3px rgba(0,0,0,.15);
-	
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .15);
+
 	.pricing-head {
 		text-align: center;
 		padding: 50px 0;
@@ -933,7 +969,10 @@ button.mfp-arrow {
 		}
 
 		&.white {
-			span,h4,h5 {
+
+			span,
+			h4,
+			h5 {
 				color: #fff;
 			}
 		}
@@ -954,19 +993,19 @@ button.mfp-arrow {
 	.pricing-footer {
 
 		a {
-		    display: block;
-		    padding: 1em;
-		    background: #f2f2f2;
-		    color: #2b2c2d;
-		    text-align: center;
-		    text-transform: uppercase;
-		    letter-spacing: 1px;
-		    transition: all .4s ease-in-out;
+			display: block;
+			padding: 1em;
+			background: #f2f2f2;
+			color: #2b2c2d;
+			text-align: center;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			transition: all .4s ease-in-out;
 
-		    &:hover {
-		    	background: $brand-primary;
-		    	color: #fff;
-		    }
+			&:hover {
+				background: $brand-primary;
+				color: #fff;
+			}
 		}
 	}
 }
@@ -979,7 +1018,7 @@ button.mfp-arrow {
 //---------------------------------------
 
 
-.latest-news{
+.latest-news {
 	margin-bottom: 30px;
 
 	h4 {
@@ -993,21 +1032,21 @@ button.mfp-arrow {
 		a {
 			color: #282828;
 			text-decoration: none;
-			-webkit-transition: all.5s ;
-			-o-transition: all.5s ;
-			transition: all.5s ;
+			-webkit-transition: all .5s;
+			-o-transition: all .5s;
+			transition: all .5s;
 
 			&:hover {
 				color: #ec4933;
-				-webkit-transition: all.5s ;
-				-o-transition: all.5s ;
-				transition: all.5s ;
+				-webkit-transition: all .5s;
+				-o-transition: all .5s;
+				transition: all .5s;
 			}
 		}
 
 	}
 
-	.latest-news-img{
+	.latest-news-img {
 		position: relative;
 
 		img {
@@ -1031,7 +1070,7 @@ button.mfp-arrow {
 			display: block;
 		}
 
-		span:last-child{
+		span:last-child {
 			font-size: 26px;
 			color: #fdfdfd;
 			font-weight: bold;
@@ -1043,17 +1082,17 @@ button.mfp-arrow {
 				position: absolute;
 				content: "";
 				border-color: #ec4933 transparent transparent #ec4933;
-			    border-style: solid;
-			    border-width: 5px;
-			    bottom: -16px;
-			    height: 0;
-			    left: -10px;
-			    width: 0;
+				border-style: solid;
+				border-width: 5px;
+				bottom: -16px;
+				height: 0;
+				left: -10px;
+				width: 0;
 			}
 		}
 	}
 
-	.comment{
+	.comment {
 		margin-top: 12px;
 		min-height: 30px;
 
@@ -1103,28 +1142,29 @@ button.mfp-arrow {
 	position: relative;
 
 	#map {
-	    width: 100%;
-	    border: 0;
-	    position: absolute;
-	    z-index: 99;
+		width: 100%;
+		border: 0;
+		position: absolute;
+		z-index: 99;
 	}
 }
+
 .form-section {
-	
+
 	.black {
 		background: #282828;
 	}
 
 	.full-height {
 		z-index: 999;
-	    position: relative;
-	    padding: 100px 50px;
+		position: relative;
+		padding: 100px 50px;
 	}
 }
 
 .contact-form {
-	
-	input[type="text"], 
+
+	input[type="text"],
 	textarea {
 		width: 100%;
 		display: block;
@@ -1173,33 +1213,33 @@ button.mfp-arrow {
 		margin-bottom: 30px;
 		color: #fff;
 	}
-	
+
 	ul.social {
 		margin: 0;
-    	padding: 0;
+		padding: 0;
 
-    	li {
-    		display: inline;
-		    list-style: none;
-		    padding-right: 10px;
+		li {
+			display: inline;
+			list-style: none;
+			padding-right: 10px;
 
-		    a {
-		    	padding: 5px 8px;
-			    background: #151515;
-			    border: 1px solid #151515;
-			    color: #fff;
-			    border-radius: 2px;
-			    -webkit-transition: all 0.35;
-			    transition: all 0.35;
+			a {
+				padding: 5px 8px;
+				background: #151515;
+				border: 1px solid #151515;
+				color: #fff;
+				border-radius: 2px;
+				-webkit-transition: all 0.35;
+				transition: all 0.35;
 
-			    &:hover {
-			    	text-decoration: none;
-				    background: #fff;
-				    color: $brand-primary;
-				    border: 1px solid #fff;
-			    }
-		    }
-    	}
+				&:hover {
+					text-decoration: none;
+					background: #fff;
+					color: $brand-primary;
+					border: 1px solid #fff;
+				}
+			}
+		}
 	}
 
 	.copyright-text {
@@ -1207,8 +1247,9 @@ button.mfp-arrow {
 		color: #fff;
 
 		a {
-			
+
 			color: $text-color;
+
 			&:hover {
 				color: #fff;
 			}
@@ -1229,45 +1270,45 @@ button.mfp-arrow {
 //-----------------------------
 
 .back-to-top.reveal {
-    cursor: pointer;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-    opacity: 30;
-    filter: alpha(opacity=3000);
+	cursor: pointer;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	opacity: 30;
+	filter: alpha(opacity=3000);
 
-    &:focus,
-    &:active,
-    &:hover {
-    	background-color: $black-russian-grey;
-	    opacity: 100;
-	    filter: alpha(opacity=10000);
-    }
+	&:focus,
+	&:active,
+	&:hover {
+		background-color: $black-russian-grey;
+		opacity: 100;
+		filter: alpha(opacity=10000);
+	}
 }
 
 .back-to-top {
-    position: fixed;
-    z-index: 1000;
-    right: 25px;
-    bottom: 15px;
-    width: 40px;
-    height: 40px;
-    margin: 0;
-    background-color: $brand-primary;
-    opacity: 0;
-    filter: alpha(opacity=0);
-    -webkit-transition: opacity 350ms;
-    -o-transition: opacity 350ms;
-    transition: opacity 350ms;
+	position: fixed;
+	z-index: 1000;
+	right: 25px;
+	bottom: 15px;
+	width: 40px;
+	height: 40px;
+	margin: 0;
+	background-color: $brand-primary;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: opacity 350ms;
+	-o-transition: opacity 350ms;
+	transition: opacity 350ms;
 
-    i {
-	    position: absolute;
-	    top: 50%;
-	    left: 35%;
-	    margin-top: -15px;
-	    margin-left: -3px;
-	    color: #ffffff;
-    }
+	i {
+		position: absolute;
+		top: 50%;
+		left: 35%;
+		margin-top: -15px;
+		margin-left: -3px;
+		color: #ffffff;
+	}
 }
